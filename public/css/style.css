@@ -144,20 +144,14 @@ a {
   top: 328px;
 }
 
-.c {
-  position: absolute;
-  width: 100%;
-  height: 500px;
-}
-
 .setRoom {
   position: absolute;
   width: 740px;
   height: 552px;
   left: 350px;
-  top: 632px;
+  top: 635px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 8px;
+  border-radius: 15px;
   background-image: url("../image/Rectangle3.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -332,10 +326,10 @@ form {
 .cardVilla {
   position: absolute;
   width: 100%;
-  top: 800px;
+  margin-top: 800px;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 30px;
   justify-content: center;
 
 }
@@ -426,11 +420,21 @@ form {
   color: #FA9600;
 }
 
+.card1 {
+  position: absolute;
+  width: 550px;
+  height: 366px;
+  left: 24px;
+  top: 1650px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
 .card2 {
   position: absolute;
   width: 550px;
   height: 366px;
-  left: 4 4px;
   top: 2750px;
   display: flex;
   flex-wrap: wrap;
@@ -590,10 +594,12 @@ form {
 
 .img-popular-place {
   height: 768px;
-padding-left: 200px;
-margin-top: 300px;
+  width: 100%;
+  justify-items: center;
+  margin-top: 300px;
   position: relative;
 }
+
 .img-item-group {
   position: absolute;
   top: 0;
@@ -602,8 +608,9 @@ margin-top: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 30px;
+  padding: 0 220px;
 }
+
 .img-item-small {
   padding: 10px;
   background-color: #fff;
@@ -617,15 +624,18 @@ margin-top: 300px;
   width: 247px;
   height: 211px;
 }
-.bg-hls{
-  background-image: url("../image/hls.png") ;
+
+.bg-hls {
+  background-image: url("../image/hls.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
   width: 100%;
   position: absolute;
   top: 4500px;
+  padding: 30px;
 }
+
 .section-component {
   background-color: #fff;
   padding: 60px 0;
@@ -679,6 +689,7 @@ margin-top: 300px;
 .grid-text {
   padding: 20px 0;
 }
+
 .grid-text-item {
   text-align: center;
 }
@@ -707,10 +718,12 @@ margin-top: 300px;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .btn-see-more {
   text-align: center;
   padding: 20px 0;
 }
+
 .btn-see-more button {
   width: 150px;
   height: 45px;
@@ -724,6 +737,7 @@ margin-top: 300px;
   /* identical to box height */
   color: #ffffff;
 }
+
 .card-group-news {
   background: #ffffff;
   text-align: center;
@@ -739,7 +753,11 @@ margin-top: 300px;
 }
 
 .card-news-text {
-  padding: 10px 20px;
+  padding: 30px 20px;
+}
+.p-d{
+  color:  rgba(85, 82, 82, 0.5);
+
 }
 .title-section {
   font-family: "Montserrat";
@@ -752,6 +770,7 @@ margin-top: 300px;
 
   color: #1d3768;
 }
+
 .rating-user-component {
   width: 100%;
   height: 500px;
@@ -765,10 +784,12 @@ margin-top: 300px;
   color: #fff;
   text-align: center;
 }
-.news{
+
+.news {
   position: absolute;
- top: 5600px;
- left : 150px
+  top: 5600px;
+  width: 100%;
+  height: 200px;
 }
 
 .user-rating {
@@ -778,14 +799,16 @@ margin-top: 300px;
   border-radius: 14px;
   margin: 50px;
 }
-.rt{
-  position: absolute ;
-  top :6100px;
+
+.rt {
+  position: absolute;
+  top: 6100px;
   width: 100%;
 }
-.flex-space-around{
+
+.flex-space-around {
   display: flex;
-    
+
 }
 
 .btn-green {
@@ -807,11 +830,7 @@ margin-top: 300px;
   border: none;
 }
 
-footer {
-  background: url("../images/TheSongKV_1920x1080_logo\ 1.png") no-repeat;
-  background-size: cover;
-  height: 700px;
-}
+
 
 .footer-last {
   position: fixed;
@@ -819,29 +838,32 @@ footer {
   left: 0;
   right: 0;
 }
-.footer{
+
+.footer {
   position: absolute;
-  top: 6000px;
-  width: 89%;
+  top: 6200px;
+  width: 100%;
   height: 400px;
   display: flex;
-  background: url("../../Rectangle 2.jpg") no-repeat;
-  background-size: cover;
+  background: url("../image/Rectangle 2.jpg") no-repeat;
+    background-size: cover;
   position: relative;
 }
+
 .footer-last {
   background-color: orange;
   display: flex;
   justify-content: space-around;
   color: white;
-  }
-  .ct {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    }
+}
+
+.ct {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
