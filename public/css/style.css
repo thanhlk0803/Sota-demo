@@ -1,0 +1,847 @@
+header {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+  right: 0;
+  background: #1D3768;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+}
+
+.logoHome {
+  position: absolute;
+  width: 201px;
+  height: 77px;
+  left: 47px;
+  top: 8px;
+}
+
+ul {
+  position: absolute;
+  height: 20px;
+  left: 290px;
+  top: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  color: #F5F5F5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-search {
+  top: 5px;
+
+  position: absolute;
+  background: #1D3768;
+  color: #F5F5F5;
+  border: none;
+
+}
+
+/* reponse */
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 5px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  li {
+    margin: 5px 0;
+  }
+
+  a {
+    color: #333;
+  }
+
+  /* Hiển thị menu dưới dạng dropdown */
+  nav select {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  nav select option {
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  left: 0px;
+
+}
+
+.title {
+  position: absolute;
+  width: 554px;
+  height: 53px;
+  left: 520px;
+  top: 288px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 133.19%;
+  /* or 53px */
+
+  letter-spacing: 0.025em;
+
+  color: #FFFFFF;
+}
+
+.logo {
+  position: absolute;
+  width: auto;
+  left: 548px;
+  top: 328px;
+}
+
+.c {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+}
+
+.setRoom {
+  position: absolute;
+  width: 740px;
+  height: 552px;
+  left: 350px;
+  top: 632px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+  background-image: url("../image/Rectangle3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.title-sr {
+  position: absolute;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 5% 0% 10% 40%;
+}
+
+form {
+  margin: 92px;
+  position: absolute;
+  width: 508px;
+  height: 20px;
+  font-family: 'Old Standard TT';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 133.19%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.025em;
+
+  color: #FFFFFF;
+
+
+}
+
+.btn-sr {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 136px;
+  height: 41px;
+  left: 370px;
+
+  background: #1D3768;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+.rg-sr {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 133.19%;
+  /* identical to box height, or 20px */
+  color: #ffc107;
+  letter-spacing: 0.025em;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.introduce {
+  position: absolute;
+  width: 550px;
+  height: 366px;
+  left: 64px;
+  top: 1250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-basis: 50%;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.i-d {
+  position: absolute;
+  width: 201px;
+  height: 77px;
+  left: 904px;
+  top: 0;
+}
+
+.intro-t {
+  position: absolute;
+  width: 386px;
+  height: 29px;
+  left: 804px;
+  top: 50px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #1D3768;
+}
+
+.intro-d {
+  position: absolute;
+  width: 619px;
+  height: 169px;
+  left: 654px;
+  top: 75px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 207.1%;
+  /* or 33px */
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+.card {
+  position: absolute;
+  width: 550px;
+  left: 4 4px;
+  top: 950px;
+  display: flex;
+  margin-right: 15px;
+  justify-content: center;
+
+}
+
+.title-bn-card {
+  position: absolute;
+  width: 300px;
+  height: 33px;
+  left: 550px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 33px;
+  /* identical to box height */
+
+
+  color: #1D3768;
+}
+
+.card-sl {
+  position: absolute;
+  width: 215px;
+  height: 20px;
+  left: 572px;
+  top: 35px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.025em;
+
+  color: #1D3768;
+}
+
+.cardVilla {
+  position: absolute;
+  width: 100%;
+  top: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  justify-content: center;
+
+}
+
+.card-img {
+  position: absolute;
+  left: 4.53%;
+  right: 3.77%;
+  top: 0%;
+  bottom: 61.3%;
+
+  border-radius: 18px;
+}
+
+.card-title {
+  position: absolute;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1D3768;
+  left: 100px;
+  /*identical to box height */
+
+}
+
+
+
+.card-box {
+  flex-basis: auto;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.rating {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  color: #ffc107;
+  /* Personal choice */
+}
+
+.rating input {
+  display: none;
+}
+
+/* .rating label:hover,
+.rating label:hover~label,
+.rating input:checked+label,
+.rating input:checked+label~label {
+  color: #ffc107;
+  /* Personal color choice. Lifted from Bootstrap 4 */
+/* } */
+*/ .span-ra {
+  color: #ffc107;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 1600px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.img-p {
+  width: 50px;
+  height: 50px;
+}
+
+.span-k {
+  padding-left: 10px;
+}
+
+.card-price {
+  position: absolute;
+  left: 19.62%;
+  right: 21.13%;
+  top: 94.8%;
+  bottom: 2.11%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #FA9600;
+}
+
+.card2 {
+  position: absolute;
+  width: 550px;
+  height: 366px;
+  left: 4 4px;
+  top: 2750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card3 {
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  top: 3920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card4 {
+  position: absolute;
+  top: 4600px;
+  width: 100%;
+}
+
+.homeStay {
+  position: absolute;
+  width: 100%;
+  top: 1900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.hotel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 4000px;
+  padding-left: 80px;
+
+}
+
+.box-h {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+}
+
+.item-1 {
+
+  width: 100%;
+  height: 362px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-hc {
+  flex: 1;
+  width: auto;
+  height: 23px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  top: 480px;
+  color: #000000;
+  text-align: unset;
+
+}
+
+.title-h {
+
+  width: auto;
+  height: 23px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  top: 480px;
+  color: #000000;
+  text-align: center;
+
+}
+
+.price-h {
+  padding-left: 15px;
+
+  width: 212px;
+  height: 23px;
+  top: 520px;
+  display: flex;
+  flex-direction: row;
+}
+
+.price-h-old {
+
+  text-decoration: line-through;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #726B6B;
+
+}
+
+.price-h-new {
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: red;
+
+}
+
+.item-2 {
+  position: absolute;
+  display: flex;
+  width: 35%;
+  left: 55%;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.item2-h {
+  flex: 1;
+  width: 50%;
+  height: 100px;
+  /* chia đều 4 phần tử con */
+}
+
+.btn-lm {
+
+  width: 110px;
+  height: 45px;
+
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #F5F5F5;
+  background: #1D3768;
+  border-radius: 6px;
+}
+
+.img-popular-place {
+  height: 768px;
+padding-left: 200px;
+margin-top: 300px;
+  position: relative;
+}
+.img-item-group {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+.img-item-small {
+  padding: 10px;
+  background-color: #fff;
+  width: 199px;
+  height: 172px;
+}
+
+.img-item-big {
+  padding: 10px;
+  background-color: #fff;
+  width: 247px;
+  height: 211px;
+}
+.bg-hls{
+  background-image: url("../image/hls.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+  position: absolute;
+  top: 4500px;
+}
+.section-component {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.section-component-title {
+  text-align: center;
+}
+
+.card-group {
+  padding: 0px 30px;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  display: inline-block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+.card .grid {
+  border-bottom: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+.text-last-card {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #fa9600;
+}
+
+.grid-css {
+  text-align: center;
+  width: 550px;
+  height: 475px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.component-grid {
+  display: flex;
+}
+
+.grid-text {
+  padding: 20px 0;
+}
+.grid-text-item {
+  text-align: center;
+}
+
+.price-origin {
+  text-decoration: line-through;
+}
+
+.price-sale {
+  color: #c80d0d;
+}
+
+.item-grid {
+  width: 265px;
+  height: 230px;
+}
+
+.img-grid-item {
+  width: 265px;
+  margin: 10px 0;
+}
+
+.grid-item-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.btn-see-more {
+  text-align: center;
+  padding: 20px 0;
+}
+.btn-see-more button {
+  width: 150px;
+  height: 45px;
+  background: #1d3768;
+  border-radius: 6px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.card-group-news {
+  background: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.card-news {
+  width: 265px;
+  height: 265px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-news-text {
+  padding: 10px 20px;
+}
+.title-section {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 33px;
+  padding-top: 10px;
+  /* identical to box height */
+
+  color: #1d3768;
+}
+.rating-user-component {
+  width: 100%;
+  height: 500px;
+  background: url("../image/Rectangle3.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.rating-user-component-title {
+  padding: 16px;
+  color: #fff;
+  text-align: center;
+}
+.news{
+  position: absolute;
+ top: 5600px;
+ left : 150px
+}
+
+.user-rating {
+  width: 360px;
+  height: 369px;
+  background: rgba(29, 55, 104, 0.6);
+  border-radius: 14px;
+  margin: 50px;
+}
+.rt{
+  position: absolute ;
+  top :6100px;
+  width: 100%;
+}
+.flex-space-around{
+  display: flex;
+    
+}
+
+.btn-green {
+  width: 217px;
+  height: 45px;
+  background: #30be0d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 29px;
+  border: none;
+  margin: 20px 0;
+}
+
+.btn-red {
+  width: 217px;
+  height: 45px;
+  background: #c80d0d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 29px;
+  border: none;
+}
+
+footer {
+  background: url("../images/TheSongKV_1920x1080_logo\ 1.png") no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.footer-last {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer{
+  position: absolute;
+  top: 6000px;
+  width: 89%;
+  height: 400px;
+  display: flex;
+  background: url("../../Rectangle 2.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.footer-last {
+  background-color: orange;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  }
+  .ct {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
